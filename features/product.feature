@@ -1,4 +1,4 @@
-Feature: Access A Product
+Feature: Access A Product In Product List
 
   Scenario: User want to access product via search feature
     Given [ebay] User open the main page
