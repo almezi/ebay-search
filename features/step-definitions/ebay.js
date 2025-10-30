@@ -135,5 +135,4 @@ Then('[ebay] User can see applied filter with {string}', async (filterText) => {
     // Add implementation to verify specific filter is applied
     const filter = await $(`//*[contains(text(), '${filterText}')]`);
     await expect(filter).toBeDisplayed();
-//span[contains(text(),'Condition: New')]
 });
