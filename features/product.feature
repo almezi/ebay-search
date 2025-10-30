@@ -1,6 +1,6 @@
 Feature: Access A Product In Product List
 
-  Scenario: User want to access product via search feature
+  Scenario: User want to access product via search
     Given [ebay] User open the main page
     When [ebay] User type 'Malaysian Baju Melayu Elrah set Malay Traditional Formal Attire Shirt Pants' in search bar of the main page
     And [ebay] User use filter 'Clothing, Shoes & Accessories'
@@ -28,6 +28,3 @@ Feature: Access A Product In Product List
     And [ebay] User can see applied filter with 'Condition: New'
     And [ebay] User can see applied filter with 'Price: Under $1,909,920'
     And [ebay] User can see applied filter with 'Item location: Worldwide'
-
-
-
